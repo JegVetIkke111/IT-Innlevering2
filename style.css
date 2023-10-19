@@ -40,6 +40,9 @@ h1, p {
     position: relative;
     margin: auto;
     width: 95%;
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgb(37, 108, 240);
   }
   
   /* Style the links inside the navigation bar */
