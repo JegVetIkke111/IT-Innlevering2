@@ -7,6 +7,7 @@ h1
     padding-left: 20px;
     padding-right: 20px;
     font-size: 73px;
+    background-color: rgba(0, 0, 0, 0.842);
 }
 
 .bakgrunnsbilde {
@@ -17,11 +18,15 @@ h1
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
-    border-width: 10px;
+    border-width: px;
     border-style: inset;
     border-color:rgb(37, 108, 240);
 }
 
 body {
     background-color: rgb(9, 26, 48);
+}
+
+h1, p {
+    color: white;
 }
