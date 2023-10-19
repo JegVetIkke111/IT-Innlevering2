@@ -38,8 +38,9 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
-    margin: 0;
-    width: 95%
+    margin: auto;
+    width: 50%;
+    padding: 0;
   }
   
   /* Style the links inside the navigation bar */
