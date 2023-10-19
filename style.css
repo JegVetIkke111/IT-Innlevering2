@@ -9,3 +9,14 @@ h1
     font-size: 73px;
     background-color: rgba(0, 0, 0, 0.842);
 }
+
+.bakgrunnsbilde {
+    height: 450px;
+    z-index: -1;
+    width: 85%;
+    margin-top: 50px;
+    border-radius: 25px;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
