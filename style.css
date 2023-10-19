@@ -26,7 +26,7 @@ h1
 
 body {
     background-color: rgb(10, 27, 48);
-    padding-top: 60px; /* Added padding for navigation bar */
+    padding: 0;
 }
 
 h1, p {
@@ -40,7 +40,6 @@ h1, p {
     position: relative;
     margin: auto;
     width: 50%;
-    padding: 0;
   }
   
   /* Style the links inside the navigation bar */
