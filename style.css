@@ -1,12 +1,12 @@
 h1 
 {
-    font-family: 'Pixelify Sans', sans-serif;
     position: absolute;
-    font-size: 73px;
+    font-size: 60px;
     background-color: rgba(0, 0, 0, 0.842);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Inconsolata', monospace;
 }
 
 .bakgrunnsbilde {
@@ -23,7 +23,7 @@ h1
 }
 
 body {
-    background-color: rgb(9, 26, 48);
+    background-color: rgb(10, 27, 48);
 }
 
 h1, p {
