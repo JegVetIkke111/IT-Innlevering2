@@ -13,7 +13,7 @@ h1
 .bakgrunnsbilde {
     height: 600px;
     z-index: -1;
-    width: 100%;
+    width: 95%;
     margin-top: 0;
     top: 0;
     position: relative; 
@@ -38,6 +38,7 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
+    width: 95%
   }
   
   /* Style the links inside the navigation bar */
