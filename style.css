@@ -38,6 +38,7 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
+    margin: 0;
     width: 95%
   }
   
