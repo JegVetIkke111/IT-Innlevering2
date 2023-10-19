@@ -11,7 +11,7 @@ h1
 }
 
 .bakgrunnsbilde {
-    height: 600px;
+    height: 580px;
     z-index: -1;
     width: 95%;
     margin-top: 0;
@@ -42,10 +42,10 @@ h1, p {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
     font-family: 'Inconsolata', monospace;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   /* Change the color of links on hover */
@@ -56,6 +56,6 @@ h1, p {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    border-color:rgb(37, 108, 240);
     color: white;
   }
