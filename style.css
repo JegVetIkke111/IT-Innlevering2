@@ -20,7 +20,7 @@ h1
     transform: translateX(-50%);
     border-width: 5px;
     border-style: inset;
-    border-color:blue;
+    border-color:rgb(37, 108, 240);
 }
 
 body {
