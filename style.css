@@ -5,7 +5,7 @@ h1
     background-color: rgba(0, 0, 0, 0.842);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     font-family: 'Inconsolata', monospace;
     white-space: nowrap;
 }
@@ -15,7 +15,7 @@ h1
     z-index: -1;
     width: 100%;
     margin-top: 5%;
-    position: absolute; 
+    position: relative; 
     left: 50%;
     transform: translateX(-50%);
     border-width: 10px;
@@ -25,6 +25,7 @@ h1
 
 body {
     background-color: rgb(10, 27, 48);
+    padding-top: 60px; /* Added padding for navigation bar */
 }
 
 h1, p {
