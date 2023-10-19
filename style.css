@@ -18,7 +18,7 @@ h1
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
-    border-width: 5px;
+    border-width: 10px;
     border-style: inset;
     border-color:rgb(37, 108, 240);
 }
