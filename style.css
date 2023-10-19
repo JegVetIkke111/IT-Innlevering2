@@ -13,10 +13,13 @@ h1
 .bakgrunnsbilde {
     height: 450px;
     z-index: -1;
-    width: 85%;
+    width: 100%;
     margin-top: 50px;
     border-radius: 25px;
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
+    border-width: 5px;
+    border-style: inset;
+    
 }
