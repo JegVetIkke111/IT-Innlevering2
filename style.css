@@ -41,7 +41,7 @@ h1, p {
     margin: auto;
     width: 95%;
     border-width: 10px;
-    border-style: solid;
+    border-style: outset;
     border-color:rgb(37, 108, 240);
   }
   
