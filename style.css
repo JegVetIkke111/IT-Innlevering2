@@ -65,6 +65,7 @@ h1, p {
     text-decoration: none;
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
+    letter-spacing: 1.5px;
   }
   
   /* Change the color of links on hover */
