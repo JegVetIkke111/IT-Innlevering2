@@ -2,7 +2,7 @@
   position: absolute;
   font-size: 60px;
   background-color: rgba(0, 0, 0, 0.842);
-  top: 10%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Inconsolata', monospace;
@@ -54,7 +54,7 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
-    top: 2%; /* Adjust the distance from the top as needed */
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     width: 97%;
