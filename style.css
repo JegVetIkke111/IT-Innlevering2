@@ -8,6 +8,7 @@ h1 {
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
   text-align: center;
+  letter-spacing: 1.5px;
 }
 
 .bakgrunnsbilde {
