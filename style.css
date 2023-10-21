@@ -26,7 +26,7 @@
 }
 
 body {
-    background-color: rgb(8, 18, 31);
+    background-color: rgb(12, 31, 58);
     padding: 0;
     margin: 0;
 }
@@ -83,6 +83,6 @@ h1, p {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(8, 18, 31);
+    background-color: rgb(12, 31, 58);
     color: white;
   }
