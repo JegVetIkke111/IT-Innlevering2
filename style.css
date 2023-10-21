@@ -2,7 +2,7 @@
   position: absolute;
   font-size: 60px;
   background-color: rgba(0, 0, 0, 0.842);
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Inconsolata', monospace;
