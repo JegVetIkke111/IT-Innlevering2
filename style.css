@@ -1,4 +1,4 @@
-h1 {
+.tittel {
   position: absolute;
   font-size: 60px;
   background-color: rgba(0, 0, 0, 0.842);
@@ -7,7 +7,6 @@ h1 {
   transform: translate(-50%, -50%);
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
-  text-align: center;
   letter-spacing: 1.5px;
 }
 
@@ -29,6 +28,11 @@ body {
     background-color: rgb(10, 27, 48);
     padding: 0;
     margin: 0;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 1px 2px rgb(37, 108, 240);
 }
 
 h1, p {
