@@ -1,13 +1,14 @@
 .hovedtittel {
   position: absolute;
-  font-size: 60px;
+  font-size: 65px;
   background-color: rgba(0, 0, 0, 0.842);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px;  
+  padding: 10px;
 }
 
 .bakgrunnsbilde {
@@ -35,8 +36,12 @@ h1 {
   text-shadow: 1px 1px 2px rgb(37, 108, 240);
 }
 
+p {
+  font-size: 20px;
+}
+
 .overskrifter {
-  font-size: 50px;
+  font-size: 55px;
 }
 
 h1, p {
@@ -49,7 +54,9 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
-    margin-top: 2% auto;
+    top: 2%; /* Adjust the distance from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
     width: 97%;
     border-width: 10px;
     border-style: outset;
