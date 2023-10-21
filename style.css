@@ -1,13 +1,17 @@
 h1 
 {
     position: absolute;
-    font-size: 55px;
+    font-size: 60px;
     background-color: rgba(0, 0, 0, 0.842);
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Inconsolata', monospace;
     white-space: nowrap;
+}
+p{
+  font-family: 'Inconsolata', monospace;
+
 }
 
 .bakgrunnsbilde {
