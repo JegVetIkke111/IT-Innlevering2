@@ -1,4 +1,4 @@
-.tittel {
+.hovedtittel {
   position: absolute;
   font-size: 60px;
   background-color: rgba(0, 0, 0, 0.842);
@@ -32,7 +32,11 @@ body {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 1px 2px rgb(37, 108, 240);
+  text-shadow: 1px 1px 2px rgb(37, 108, 240);
+}
+
+.overskrifter {
+  
 }
 
 h1, p {
