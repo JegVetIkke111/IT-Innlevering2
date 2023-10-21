@@ -11,9 +11,9 @@
 }
 
 .bakgrunnsbilde {
-    height: 600px;
+    height: 610px;
     z-index: -1;
-    width: 98%;
+    width: 95%;
     margin-top: 0;
     top: 0;
     position: relative; 
@@ -50,7 +50,7 @@ h1, p {
     overflow: hidden;
     position: relative;
     margin: auto;
-    width: 98%;
+    width: 95%;
     border-width: 10px;
     border-style: outset;
     border-color:rgb(37, 108, 240);
