@@ -27,7 +27,7 @@
 
 body {
     background-color: rgb(12, 31, 58);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #000 10px, #000 20px);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #eedcdc 10px, #e2c8c8 20px);
     padding: 0;
     margin: 0;
 }
