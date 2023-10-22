@@ -53,7 +53,7 @@ h1, p {
 .tekstboks {
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
-  
+  margin: 0 auto;
 }
 
 /* Add a black background color to the top navigation */
