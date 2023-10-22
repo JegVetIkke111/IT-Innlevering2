@@ -90,6 +90,6 @@ h1, p {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(5, 15, 27);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
     color: white;
   }
