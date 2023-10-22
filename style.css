@@ -23,13 +23,6 @@
     border-color:rgb(37, 108, 240);
 }
 
- .hovedskift {
-    background-color: rgb(37, 108, 240);
-    margin: 0 auto;
-    padding: 0;
- }
-
-
 body {
     background-color: rgb(5, 15, 27);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px,#15345f 10px, #15345f 20px);
@@ -44,6 +37,8 @@ h1 {
 
 p {
   font-size: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .overskrifter {
