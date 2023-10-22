@@ -57,7 +57,8 @@ h1, p {
 }
 
 .bildeboks {
-  
+  height: 512px;
+  width: 512px;
 }
 
 /* Add a black background color to the top navigation */
