@@ -15,8 +15,6 @@
     height: 610px;
     z-index: -1;
     width: 97%;
-    margin-top: 0;
-    top: 0;
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
