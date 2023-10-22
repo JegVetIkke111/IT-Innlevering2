@@ -7,7 +7,6 @@
   transform: translate(-50%, -50%);
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
-  letter-spacing: 1.5px;  
   padding: 10px;
 }
 
@@ -33,7 +32,7 @@ body {
 h1 {
   text-align: center;
   text-shadow: 2px 2px 2px rgb(37, 108, 240);
-  text-decoration: underline;
+  letter-spacing: 1.5px;  
 }
 
 p {
