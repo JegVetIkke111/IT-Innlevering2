@@ -56,12 +56,15 @@ h1, p {
   margin: 0 auto;
 }
 
-.bildeboks {
+.verktøybilder {
   height: 400px;
   width: 400px;
   border-width: 2px;
   border-style: outset;
   border-color:rgb(37, 108, 240);
+}
+
+.bildeboks {
   margin: 10px; 
   float: left;
 }
