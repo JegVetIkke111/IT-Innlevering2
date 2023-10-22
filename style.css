@@ -62,6 +62,12 @@ h1, p {
   border-width: 2px;
   border-style: outset;
   border-color:rgb(37, 108, 240);
+  margin: 10px; 
+  float: left;
+}
+
+.bildeboks:hover {
+
 }
 
 /* Add a black background color to the top navigation */
