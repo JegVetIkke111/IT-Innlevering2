@@ -50,6 +50,11 @@ h1, p {
     font-family: 'Inconsolata', monospace;
 }
 
+.tekstboks {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 97%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:  #204ca4;
