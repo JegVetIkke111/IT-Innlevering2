@@ -13,7 +13,7 @@
 .bakgrunnsbilde {
     height: 610px;
     z-index: -1;
-    width: 97.5%;
+    width: 97%;
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
@@ -58,7 +58,7 @@ h1, p {
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    width: 97.5%;
+    width: 97%;
     border-width: 10px;
     border-style: outset;
     border-color:rgb(37, 108, 240);
