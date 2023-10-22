@@ -41,7 +41,7 @@ p {
   font-size: 30px;
 }
 
-.overskrifter {
+.overskrift {
   font-size: 40px;
 }
 
@@ -54,6 +54,10 @@ h1, p {
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
   margin: 0 auto;
+}
+
+.bildeboks {
+  
 }
 
 /* Add a black background color to the top navigation */
