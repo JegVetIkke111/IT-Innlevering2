@@ -57,8 +57,11 @@ h1, p {
 }
 
 .bildeboks {
-  height: 512px;
-  width: 512px;
+  height: 400px;
+  width: 400px;
+  border-width: 2px;
+  border-style: outset;
+  border-color:rgb(37, 108, 240);
 }
 
 /* Add a black background color to the top navigation */
