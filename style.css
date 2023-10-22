@@ -14,7 +14,7 @@
 .bakgrunnsbilde {
     height: 610px;
     z-index: -1;
-    width: 97%;
+    width: 98%;
     position: relative; 
     left: 50%;
     transform: translateX(-50%);
@@ -55,10 +55,10 @@ h1, p {
     background-color:  #204ca4;
     overflow: hidden;
     position: relative;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    width: 97%;
+    width: 98%;
     border-width: 10px;
     border-style: outset;
     border-color:rgb(37, 108, 240);
