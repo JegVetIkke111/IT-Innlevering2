@@ -22,6 +22,7 @@
     border-style: inset;
     border-color:rgb(37, 108, 240);
 }
+
  .hovedskift {
     background-color: rgb(37, 108, 240);
     margin: 0 auto;
@@ -30,8 +31,8 @@
 
 
 body {
-    background-color: rgb(12, 31, 58);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px,rgb(20, 51, 94) 10px,rgb(20, 51, 94) 20px);
+    background-color: rgb(5, 15, 27);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px,rgb(33, 80, 146) 10px,rgb(33, 80, 146) 20px);
     padding: 0;
     margin: 0;
 }
@@ -88,6 +89,6 @@ h1, p {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(12, 31, 58);
+    background-color: rgb(5, 15, 27);
     color: white;
   }
