@@ -63,6 +63,8 @@ h1, p {
   border-style: outset;
   border-color:rgb(37, 108, 240);
   padding: 10px;
+  margin: 0 10px;
+  display: inline-block; 
 }
 
 .bildeboks {
