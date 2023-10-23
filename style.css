@@ -71,15 +71,13 @@ h1, p {
 .bildeboks {
   margin: 10px; 
   position: relative;
-  display: inline-block;
-  text-align: center;
 }
 
 .bildetekst {
   position: absolute; 
   top: 50%;
   left: 50%; 
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
 }
 
 .bildeboks:hover {
