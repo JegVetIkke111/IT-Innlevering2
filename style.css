@@ -70,7 +70,6 @@ h1, p {
 
 .bildeboks {
   margin: 10px; 
-  float: center;
   position: relative;
   display: inline-block;
 }
