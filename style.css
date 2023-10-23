@@ -74,7 +74,7 @@ h1, p {
 
 }
 
-/* Add a black background color to the top navigation */
+/* 
 .topnav {
     background-color:  rgb(37, 108, 240);
     overflow: hidden;
@@ -88,7 +88,6 @@ h1, p {
     border-color:rgb(37, 108, 240);
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -100,15 +99,53 @@ h1, p {
     letter-spacing: 1.5px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #204ca4;
     color: black;
   }
-  
-  /* Add a color to the active/current link */
+*/
+
+
   .topnav a.active {
     background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
     background-color:  rgb(5, 15, 27);
     color: white;
   }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color:  #204ca4;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97%;
+  border-width: 10px;
+  border-style: outset;
+  border-color:rgb(37, 108, 240);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
+  color: white;
+}
