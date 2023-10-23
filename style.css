@@ -67,7 +67,7 @@ h1, p {
 
 .bildeboks {
   margin: 10px; 
-  float: left;
+  float: center;
 }
 
 .bildeboks:hover {
