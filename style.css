@@ -73,7 +73,9 @@ h1, p {
 }
 
 .bildetekst {
-  text-align: center; 
+    float: left;
+    width: 33.33%;
+    padding: 5px; 
 }
 
 .bildeboks:hover {
