@@ -72,7 +72,11 @@ h1, p {
   position: relative;
 }
 
-
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+}
 
 .bildeboks:hover {
   color:rgba(0, 0, 0, 0.5);
