@@ -67,6 +67,32 @@ h1, p {
   display: inline-block; 
 }
 
+.verktøybilder-container {
+  display: flex;
+}
+
+.verktøybilde {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+}
+
+.hidden-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.verktøybilde:hover .hidden-text {
+  opacity: 1;
+}
+
 .bildeboks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
