@@ -68,8 +68,6 @@ h1, p {
 }
 
 .bildeboks {
-  margin: 10px; 
-  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px; 
