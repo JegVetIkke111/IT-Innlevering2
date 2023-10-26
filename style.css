@@ -56,33 +56,37 @@ h1, p {
   margin: 0 auto;
 }
 
-.verktøybilde {
+.verktøybilde-div {
   height: 400px;
   width: 400px;
-  border-width: 7px;
-  border-style: outset;
-  border-color:rgb(37, 108, 240);
   padding: 10px;
   margin: 0 10px;
   display: inline-block; 
   position: relative;
-    text-align: center;
+  text-align: center;
 }
 
 .verktøybilder-container {
   display: flex;
 }  
 
+.verktøybilder {
+  border-width: 7px;
+  border-style: outset;
+  border-color:rgb(37, 108, 240);
+}
+
 .hidden-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px;
   opacity: 0;
   transition: opacity 0.3s;
+  white-space: nowrap;
 }
 
 .verktøybilde:hover .hidden-text {
