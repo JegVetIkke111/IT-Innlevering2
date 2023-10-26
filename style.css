@@ -57,18 +57,16 @@ h1, p {
 }
 
 .verktøybilde-div {
-  height: 400px;
-  width: 400px;
-  padding: 10px;
-  margin: 0 10px;
+  margin: 10px; 
   display: inline-block;
-  position: relative;
   text-align: center;
 }
 
 .verktøybilder-container {
   display: flex;
   text-align: center; 
+  justify-content: center; /* Center align the content horizontally */
+  flex-wrap: wrap; 
 }
 
 .verktøybilde {
