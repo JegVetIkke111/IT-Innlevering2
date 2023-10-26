@@ -61,19 +61,18 @@ h1, p {
   width: 400px;
   padding: 10px;
   margin: 0 10px;
-  display: inline-block; 
+  display: inline-block;
   position: relative;
   text-align: center;
 }
 
 .verktøybilder-container {
   display: flex;
-}  
+  text-align: center; /* Center align the content in the container */
+}
 
-.verktøybilder {
-  border-width: 7px;
-  border-style: outset;
-  border-color:rgb(37, 108, 240);
+.verktøybilde {
+  border: 7px outset rgb(37, 108, 240); /* Apply border directly to the images */
 }
 
 .hidden-text {
