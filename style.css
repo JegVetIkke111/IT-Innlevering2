@@ -68,11 +68,11 @@ h1, p {
 
 .verktøybilder-container {
   display: flex;
-  text-align: center; /* Center align the content in the container */
+  text-align: center; 
 }
 
 .verktøybilde {
-  border: 7px outset rgb(37, 108, 240); /* Apply border directly to the images */
+  border: 7px outset rgb(37, 108, 240); 
 }
 
 .hidden-text {
