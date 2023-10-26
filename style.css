@@ -56,7 +56,7 @@ h1, p {
   margin: 0 auto;
 }
 
-.verktøybilder {
+.verktøybilde {
   height: 400px;
   width: 400px;
   border-width: 7px;
@@ -65,17 +65,14 @@ h1, p {
   padding: 10px;
   margin: 0 10px;
   display: inline-block; 
-}
-
-.verktøybilder-container {
-  display: flex;
-}
-
-.verktøybilde {
   position: relative;
   margin: 10px;
   text-align: center;
 }
+
+.verktøybilder-container {
+  display: flex;
+}  
 
 .hidden-text {
   position: absolute;
