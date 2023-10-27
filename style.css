@@ -57,14 +57,17 @@ h1, p {
 }
 
 .verktøybilde {
-  height: auto;
-  width: auto;
   border-width: 7px;
   border-style: outset;
   border-color:rgb(37, 108, 240);
   padding: 10px;
   margin: 0 10px;
   display: inline-block; 
+}
+
+.verktøybilder img {
+  max-width: 100%;
+  height: auto;
 }
 
 .bildeboks {
