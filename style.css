@@ -70,7 +70,7 @@ h1, p {
   height: auto;
 }
 
-.bildeboks {
+.bildecontainer {
   margin: 10px; 
   position: relative;
   display: grid;
@@ -93,14 +93,6 @@ h1, p {
 
 .verktøybilde:hover .hidden-text {
   opacity: 1;
-}
-
-.bildeboks {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px; 
-  justify-content: center; 
-  align-items: center;    
 }
 
 .bildeboks:hover {
