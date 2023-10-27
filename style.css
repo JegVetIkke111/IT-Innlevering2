@@ -63,6 +63,13 @@ h1, p {
   margin: 10px;
   display: inline-block;
   text-align: center;
+  position: relative; 
+}
+
+.verktøybilde img {
+  width: 100%; 
+  height: 100%; 
+  box-sizing: border-box; 
 }
 
 .bildecontainer {
