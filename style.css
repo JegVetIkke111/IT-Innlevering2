@@ -65,7 +65,7 @@ h1, p {
   display: inline-block; 
 }
 
-.verktøybilder img {
+.verktøybilde img {
   max-width: 100%;
   height: auto;
 }
@@ -93,10 +93,6 @@ h1, p {
 
 .verktøybilde:hover .hidden-text {
   opacity: 1;
-}
-
-.bildeboks:hover {
-  color:rgba(0, 0, 0, 0.5);
 }
 
 .topnav {
