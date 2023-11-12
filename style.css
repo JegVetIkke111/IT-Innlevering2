@@ -138,4 +138,6 @@ h1, p {
 	bottom: 0px;
   font-size: 32px;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 97%;
+  margin: 0 auto; 
 }
