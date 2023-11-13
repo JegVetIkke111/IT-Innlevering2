@@ -134,7 +134,7 @@ h1, p {
 .bunntekst {
   padding-bottom: -10px;
 	padding-top: 10px;
-	text-align: center;
+	text-align: center !important;
 	bottom: 0px;
   margin: 0 auto;
   font-size: 32px;
