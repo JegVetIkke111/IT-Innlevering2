@@ -145,14 +145,14 @@ h1, p {
   border-style: inset;
 }
 
-.kildelink a:link {
+.kildelink:link {
   color: rgb(37, 108, 240);
 }
 
-.kildelink a:visited {
+.kildelink:visited {
   color: rgb(37, 108, 240);
 }
 
-.kildelink a:hover {
+.kildelink:hover {
   color: #f2f2f2;
 }
