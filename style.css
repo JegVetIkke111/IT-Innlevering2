@@ -1,158 +1,172 @@
+/* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
 .hovedtittel {
-  position: absolute;
-  font-size: 60px;
-  background-color: rgba(0, 0, 0, 0.842);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Inconsolata', monospace;
-  white-space: nowrap;
-  padding: 10px;
+  position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
+  font-size: 60px; /* Størrelsen på teksten */
+  background-color: rgba(0, 0, 0, 0.842); /* Bakgrunnsfargen til overskriften */
+  top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
+  left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
+  transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
+  padding: 10px; /* Skaper padding rundt hele elementet */
 }
 
+/* Bakgrunnsbilde-stilen brukes på et element med klasse "bakgrunnsbilde" */
 .bakgrunnsbilde {
-    height: 605px;
-    z-index: -1;
-    width: 97%;
-    position: relative; 
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 10px;
-    border-style: inset;
-    border-color:rgb(37, 108, 240);
+  height: 605px; /* Høyden på elementet */
+  z-index: -1; /* Angir stabelrekkefølgen av elementer (setter det bak andre elementer) */
+  width: 97%; /* Bredden på elementet */
+  position: relative; /* Posisjonerer elementet relativt til sitt normale sted */
+  left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
+  transform: translateX(-50%); /* Senterer elementet horisontalt */
+  border-width: 10px; /* Tykkelsen på kanten rundt elementet */
+  border-style: inset; /* Stilen på kanten av elementet */
+  border-color: rgb(37, 108, 240); /* Fargen på kanten */
 }
 
+/* Body-stilen brukes på hele nettsidekroppen */
 body {
-    background-color: rgb(5, 15, 27);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
-    padding: 0;
-    margin: 0;
+  background-color: rgb(5, 15, 27); /* Bakgrunnsfargen til nettsiden */
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Legger til striper i bakgrunnen*/
 }
 
+/* H1-stilen brukes på alle H1-elementer på siden */
 h1 {
-  text-align: center;
-  text-shadow: 2px 2px 2px rgb(37, 108, 240);
-  letter-spacing: 1.5px;  
+  text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
+  text-shadow: 2px 2px 2px rgb(37, 108, 240); /* Skyggeeffekt på teksten */
+  letter-spacing: 1.5px; /* Avstanden mellom bokstavene */
 }
 
-p {
-  font-size: 20px;
-  text-align: left !important;
-  font-size: 30px;
-  line-height: 1.5;
-}
-
-.overskrift {
-  font-size: 40px;
-}
-
+/* Generell stil for H1- og p-elementer */
 h1, p {
-    color: white;
-    font-family: 'Inconsolata', monospace;
+  color: white; /* Tekstfargen */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
 }
 
+/* Overskrift-stilen brukes på elementer med klasse "overskrift" */
+.overskrift {
+  font-size: 40px; /* Størrelsen på teksten */
+}
+
+/* P-stilen brukes på alle p-elementer på siden */
+p {
+  font-size: 30px; /* Størrelse på teksten */
+  text-align: left !important; /* Venstrejustering av teksten */
+  line-height: 1.5; /* Linjehøyde for bedre lesbarhet */
+}
+
+/* Tekstboks-stilen brukes på elementer med klasse "tekstboks" */
 .tekstboks {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 97%;
-  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til tekstboksen */
+  width: 97%; /* Bredden på tekstboksen */
+  margin: 0 auto; /* Setter automatisk margin til 0 på topp og bunn, og sentrerer horisontalt */
 }
 
+/* Stilen for elementer med klasse "verktøybilde" */
 .verktøybilde {
-  border: 7px outset rgb(37, 108, 240);
-  height: 400px;
-  width: 400px;
-  margin: 15px;
-  display: inline-block;
-  text-align: center;
-  position: relative; 
+  border: 7px outset rgb(37, 108, 240); /* Stilen for rammen rundt bildet */
+  height: 400px; /* Høyden på elementet */
+  width: 400px; /* Bredden på elementet */
+  margin: 15px; /* Margin rundt elementet */
+  display: inline-block; /* Behandler elementet som en blokk som kan plasseres ved siden av hverandre */
+  text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
+  position: relative; /* Posisjonerer elementet relativt til sitt normale sted */
 }
 
+/* Stilen for img-elementer inne i elementer med klasse "verktøybilde" */
 .verktøybilde img {
-  width: 100%; 
-  height: 100%; 
-  box-sizing: border-box; 
+  width: 100%; /* Størrelsen på bildet i forhold til foreldreelementets bredde */
+  height: 100%; /* Størrelsen på bildet i forhold til foreldreelementets høyde */
+  box-sizing: border-box; /* Boksen inkluderer grensene og paddingen i bredden og høyden */
 }
 
+/* Stilen for elementer med klasse "bildecontainer" */
 .bildecontainer {
-  display: flex;
-  justify-content: center; 
-  flex-wrap: wrap;
-} 
+  display: flex; /* Bruker Flexbox-modellen for layoutkontroll */
+  justify-content: center; /* Sentrerer innholdet horisontalt */
+  flex-wrap: wrap; /* Tillater at elementer går til neste linje hvis det ikke er nok plass */
+}
 
+/* Stilen for elementer med klasse "hidden-text" som er skjult */
 .hidden-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 10px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  white-space: nowrap;
+  position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
+  top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
+  left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
+  transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til skjult tekst */
+  color: white; /* Tekstfargen til skjult tekst */
+  padding: 10px; /* Inneholder padding for topp/bunn og venstre/høyre */
+  opacity: 0; /* Gjør teksten usynlig ved standardvisning */
+  transition: opacity 0.3s; /* Overgangseffekt for overgangen mellom tilstandene */
+  white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
 }
 
+/* Viser skjult tekst når elementer med klasse "verktøybilde" blir hovered */
 .verktøybilde:hover .hidden-text {
-  opacity: 1;
+  opacity: 1; /* Gjør teksten synlig ved hover-effekt på elementet med klasse "verktøybilde" */
 }
 
+/* Topnav-stilen brukes på navigasjonsfeltet øverst på siden */
 .topnav {
-  background-color:  #204ca4;
-  overflow: hidden;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 97%;
-  border-width: 10px;
-  border-style: outset;
-  border-color:rgb(37, 108, 240);
+  background-color: #204ca4; /* Bakgrunnsfargen til navigasjonsfeltet */
+  position: relative; /* Posisjonerer elementet relativt til sitt normale sted */
+  overflow: hidden; /*Hindrer utstikking*/
+  top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
+  left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
+  transform: translateX(-50%); /* Senterer elementet horisontalt */
+  width: 97%; /* Bredden på elementet */
+  border-width: 10px; /* Tykkelsen på kanten rundt elementet */
+  border-style: outset; /* Stilen på kanten av elementet */
+  border-color: rgb(37, 108, 240); /* Fargen på kanten */
 }
 
+/* Stilen for lenkene innenfor navigasjonsfeltet */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
-  letter-spacing: 1.5px;
+  float: left; /* Flytter elementet til venstre innenfor overordnet element */
+  color: #f2f2f2; /* Tekstfargen */
+  text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
+  padding: 14px 16px; /* Inneholder padding for topp/bunn og venstre/høyre */
+  text-decoration: none; /* Fjerner understreking og lignende for lenker */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-size: 20px; /* Størrelsen på teksten */
+  letter-spacing: 1.5px; /* Avstanden mellom bokstavene */
 }
 
 .topnav a:hover {
-  background-color: #f2f2f2;
-  color: black;
+  background-color: rgb(242, 242, 242); /* Bakgrunnsfarge ved hover */
+  color: black; /* Tekstfarge ved hover */
 }
 
 .topnav a.active {
-  background-color:  rgb(5, 15, 27);
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px);
-  color: white;
+  background-color: rgb(5, 15, 27); /* Bakgrunnsfargen for aktiv lenke */
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Gir den aktive lenken en stripete bakgrunn for å passe sammen med bakgrunnen på selveste dokumentet*/
+  color: white; /* Tekstfargen for aktiv lenke */
 }
 
+/* Bunntekst-stilen brukes på elementer med klasse "bunntekst" */
 .bunntekst {
-  padding-bottom: -10px;
-	padding-top: 10px;
-	text-align: center !important;
-	bottom: 0px;
-  margin: 0 auto;
-  font-size: 32px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 97%;
-  border: 4px solid rgb(37, 108, 240);; 
-  border-bottom: none !important; 
-  border-style: inset;
+  padding-bottom: -10px; /* Bunn padding med negativ verdi */
+  padding-top: 10px; /* Top padding */
+  text-align: center !important; /* Senterer teksten horisontalt, viktig for å overstyre andre stiler */
+  bottom: 0px; /* Plasserer bunnen av elementet 0 piksler fra bunnen av overordnet element */
+  margin: 0 auto; /* Setter automatisk margin til 0 på topp og bunn, og sentrerer horisontalt */
+  font-size: 32px; /* Størrelsen på teksten */
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til bunnteksten */
+  width: 97%; /* Bredden på bunnteksten */
+  border: 4px solid rgb(37, 108, 240); /* Stilen for bunntekstens kant */
+  border-bottom: none !important; /* Ingen kant i bunnen */
+  border-style: inset; /* Stilen på kanten av elementet */
 }
 
+/* Lenkestil for lenker med klasse "kildelink" */
 .kildelink:link {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på lenkene */
 }
 
 .kildelink:visited {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på besøkte lenker */
 }
 
 .kildelink:hover {
-  color: #f2f2f2;
+  color: #f2f2f2; /* Fargeendring ved hover-effekt på lenker */
 }
