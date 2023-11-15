@@ -1,6 +1,6 @@
 /* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
 .hovedtittel {
-  position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
+  position: absolute; /* Posisjonerer elementet relativt til sitt nærmeste posisjonerte overordnede element */
   font-size: 60px; /* Størrelsen på teksten */
   background-color: rgba(0, 0, 0, 0.842); /* Bakgrunnsfargen til overskriften */
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
@@ -89,13 +89,13 @@ p {
 
 /* Stilen for elementer med klasse "hidden-text" som er skjult */
 .hidden-text {
-  position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
+  position: absolute; /* Posisjonerer elementet relativt til sitt nærmeste posisjonerte overordnede element */
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
   left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
   transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
   background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til skjult tekst */
   color: white; /* Tekstfargen til skjult tekst */
-  padding: 10px; /* Inneholder padding for topp/bunn og venstre/høyre */
+  padding: 10px; /* Definerer padding rundt hele elementet */
   opacity: 0; /* Gjør teksten usynlig ved standardvisning */
   transition: opacity 0.3s; /* Overgangseffekt for overgangen mellom tilstandene */
   white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
