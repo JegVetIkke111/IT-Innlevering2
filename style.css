@@ -79,7 +79,7 @@ p {
 .verktøybilde img {
   width: 100%; /* Størrelsen på bildet i forhold til foreldreelementets bredde */
   height: 100%; /* Størrelsen på bildet i forhold til foreldreelementets høyde */
-  box-sizing: border-box; /* Boksen inkluderer grensene og paddingen i bredden og høyden */
+  box-sizing: border-box; /* Boksen inkluderer grensene (border) og paddingen i bredden og høyden */
 }
 
 /* Stilen for elementer med klasse "bildecontainer" */
