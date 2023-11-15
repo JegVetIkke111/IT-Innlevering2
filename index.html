@@ -1,37 +1,53 @@
+<!-- Deklarerer dokumenttypen og versjonen av HTML som brukes (HTML5) -->
 <!DOCTYPE html>
+<!-- Angir språket for nettsiden (Norsk) og danner også roten av HTML-dokumentet-->
 <html lang="no">
+<!--Danner beholder for metadata-->
 <head>
+    <!-- Definerer tegnsettet for dokumentet -->
     <meta charset="UTF-8">
+    <!-- Bidrar til å gjøre nettsiden mer responsiv -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nettsider</title>
+    <!-- Lenker til ekstern CSS-fil for styling -->
     <link rel="stylesheet" href="style.css">
+    <!-- Definerer ikonet som vises i nettlesertabben -->
     <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1158740468868325376/1164526915575611495/code_icon-icons.com_736201.png?ex=65438934&is=65311434&hm=040ffcdff77be5209c3099eff8b7332f2f5d885a27c8e85ce821c8bc18d3c5c2&=&width=600&height=600">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pixelify+Sans&display=swap" rel="stylesheet"> 
+    <!-- Lenker til Google Fonts for bruk av spesifikke skrifttyper -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!-- Setter tittelen på nettsiden -->
+    <title>HTML</title>
+<!--Slutter beholder for metadata-->
 </head>
+<!--Danner beholder for det synlige innholdet-->
 <body>
+    <!-- Navigasjonsmeny -->
     <div class="topnav">
         <a class="active" href="index.html">Hjem</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-GitHub-og-VScode/">GitHub og VS Code</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-HTML/">HTML</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-CSS/">CSS</a>
     </div> 
+    <!-- Header med bakgrunnsbilde og overskrift -->
     <div>
         <img src="https://media.discordapp.net/attachments/778579694262026281/1164516315537604688/1b1f92bf7d89c843b3a449246c225ac6.png?ex=65437f55&is=65310a55&hm=faffa59408607a378eca9b2c2ae457cc1009c35e9afb4bdfae93829c0f3bdce0&=&width=703&height=468" class="bakgrunnsbilde">
         <h1 class="hovedtittel">Hvordan lager man nettsider?</h1>
     </div>
-    <div>
-        <h1 class="overskrift">Hva er nettsider? &#128196;</h1>
-    </div>
+    <!-- Seksjon om "Hva er nettsider?" -->
+    <h1 class="overskrift">Hva er nettsider? &#128196;</h1>
+    <!--Tekstboks som forklarer hva nettsider er -->
     <div class="tekstboks">
         <p>Nettsider er dokumenter som befinner seg på den såkalte verdensveven, eller bedre kjent som “World Wide Web (WWW)” på engelsk. Dette fungerer ved at klienter, slik som datamaskiner og telefoner, har programvare ved navnet nettlesere, som Chrome og Firefox. Nettleserene tilgjengeliggjør det webserverene kan levere av innhold via nemlig nettsider og er nødvendig for å kunne lese de. Hver nettside har også egne og unike nettadresser, altså URL-er, som spesifiserer hvor de befinnes. På verdensveven finnes det omtrent 1,7 milliarder ulike nettsider med sine helt ulike utseender og funksjoner. Nettsider kan være for eksempel inneholde videoer, tekst, lyd, bilder animasjoner og lenker til andre nettsider. Det er også vanlig å kalle hovedsiden eller startsiden på nettsiden, hjemmesiden, som du befinner deg på nå. Samtidig er det normalt å ha flere nettsider koblet opp med hverandre ved hjelp av lenker, som gjør at man kan fordele innholdet bedre. Dette finner du også på denne nettsiden. Her er trinnene til hvordan man kan bygge en enkel nettside fordelt på tre, som du kan gå til ved å bruke navigasjonlinjen på toppen av nettsiden eller boksene nederst her: </p>
     </div>
+    <!-- Danner en bildecontainer for alle verktøybilder-->
     <div class="bildecontainer">
+        <!--Danner et bilde som tar deg til en annen nettside ved klikk. Har også skjult tekst som vises ved hjelp av CSS (:hover)-->
         <div class="verktøybilde">
             <a href="https://jegvetikke111.github.io/IT-innlevering2-GitHub-og-VScode/">
                 <img src="https://media.discordapp.net/attachments/1158740468868325376/1174016160400945223/252312.png?ex=65660ec0&is=655399c0&hm=be2ac410eeed40de88e3ac0b0a6c46ef80114d07d9d420bee881ce31cfa86548&=&width=571&height=571">
                 <div class="hidden-text"><p><b>GitHub og VS Code</b></p></div>
             </a>
         </div>
+        <!--Danner et bilde som tar deg til en annen nettside ved klikk. Har også skjult tekst som vises ved hjelp av CSS (:hover)-->
         <div class="verktøybilde">
             <a href="https://jegvetikke111.github.io/IT-innlevering2-HTML/">
                 <img src="https://media.discordapp.net/attachments/1158740468868325376/1174030252251562065/346889611.png?ex=65661be0&is=6553a6e0&hm=45c2c57afc9f8e56924e5f409de71470ec3a590ced8b6722b8d4cd519d0fd87a&=&width=571&height=571">
@@ -39,14 +55,17 @@
             </a>
         </div>
         <div class="verktøybilde">
+        <!--Danner et bilde som tar deg til en annen nettside ved klikk. Har også skjult tekst som vises ved hjelp av CSS (:hover)-->
             <a href="https://jegvetikke111.github.io/IT-innlevering2-CSS/">
                 <img src="https://media.discordapp.net/attachments/1158740468868325376/1174030251999895642/code-brackets1.png?ex=65661be0&is=6553a6e0&hm=4fdc508d231cd200efa26b621e34c091813f21387705efe05a68b34d38cb20cf&=&width=571&height=571">
                 <div class="hidden-text"><p><b>CSS</b></p></div>
             </a>
         </div>
     </div>
+    <!--Linjeskift-->
     <br>
     <br>
+    <!--Bunntekst med to lenker til kildekode-->
     <div>
         <p class="bunntekst">Laget av Christina | Her finner du <a href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2/main/index.html?token=GHSAT0AAAAAACKHJSOW3V7NMIAX3UWR7M5CZKTHKPA" target="_blank" class="kildelink">HTML</a> og <a target="_blank" class="kildelink" href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2/main/style.css?token=GHSAT0AAAAAACKHJSOXCAIZO5LZ4JQGVIDYZKTJM3Q">CSS</a> til nettsiden &#128279;</p>
     </div>
